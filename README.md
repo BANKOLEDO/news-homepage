@@ -42,8 +42,8 @@ Hambuger Menu
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My Solution](https://github.com/BANKOLEDO/news-homepage)
+- Live Site URL: [Page Preview](https://news-homepage-alpha-ashy.vercel.app/)
 
 ## My process
 
