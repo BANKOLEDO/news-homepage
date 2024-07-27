@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | News homepage</title>
+</head>
+<body>
+  <div id="entire-page">
+    <header id="header">
+      <img src="./assets/images/logo.svg" alt="" class="brand-logo">
+      <img src="./assets/images/icon-menu.svg" alt="hamburger-menu-img" class="hamburger-menu" id="open-menu">
+      <nav id="navbar">
+        <img src="./assets/images/icon-menu-close.svg" alt="close-img" class="close-menu" id="close-menu" style="display: none;">
+        <ul class="list">
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
+      </nav>
+    </header>
+    <section id="entire-content-container">
+      <div class="img-container">
+        <picture>
+          <source media="(min-width:800px)" srcset="./assets/images/image-web-3-desktop.jpg">
+          <img src="./assets/images/image-web-3-mobile.jpg" alt="web3-image" class="top-image">
+        </picture>
+      </div>
+      <article class="web3-heading-container">
+        <h1 class="web3-heading">The Bright Future of Web 3.0?</h1>
+      </article>
+      <article class="web3-text-container">
+        <p class="web3-text">
+          We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+          But is it really fulfilling its promise?
+        </p>
+        <button id="read-more">Read more </button>
+      </article>
+      <aside class="news-container">
+      <h1 class="news-heading">New</h1>
+      <h2 class="news-topic">Hydrogen VS Electric Cars</h2>
+      <p class="news-text">
+        Will hydrogen-fueled cars ever catch up to EVs?
+      </p>
+      <div class="hr"></div>
+      <h2 class="news-topic">The Downsides of AI Artistry</h2>
+      <p class="news-text">
+        What are the possible adverse effects of on-demand AI image generation?
+      </p>
+      <div class="hr"></div>
+      <h2 class="news-topic">Is VC Funding Drying Up?</h2>
+      <p class="news-text">
+        Private funding by VC firms is down 50% YOY. We take a look at what that means.
+      </p>
+      </aside>
+      <section class="categories-container">
+        <div class="card card-1">
+          <img src="./assets/images/image-retro-pcs.jpg" alt="retro-pc-img" class="category-img">
+          <div class="category-text-block">
+            <h1 class="number">01</h1>
+            <h2 class="category-topic">Reviving Retro PCs</h2>
+            <p class="category-text">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+        <div class="card care-2">
+          <img src="./assets/images/image-top-laptops.jpg" alt="laptops-img" class="category-img">
+          <div class="category-text-block">
+            <h1 class="number">02</h1>
+            <h2 class="category-topic">Top 10 Laptops of 2022</h2>
+            <p class="category-text">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </div>
+        <div class="card card-3">
+          <img src="./assets/images/image-gaming-growth.jpg" alt="gaming-pad-img" class="category-img">
+          <div class="category-text-block">
+            <h1 class="number">03</h1>
+            <h2 class="category-topic">The Growth of Gaming</h2>
+            <p class="category-text">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+  </div>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Bankole David</a>.
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
